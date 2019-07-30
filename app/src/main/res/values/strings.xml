@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Epicture</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="loader_text">Welcome</string>
+    <string name="sign_in_btn_text">Sign In</string>
+    <string name="sign_up_btn_text">Sign Up</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_image">Images</string>
+    <string name="title_search">Search</string>
+    <string name="title_upload">Upload</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="image_uploaded">Your image is uploaded!</string>
+    <string name="image_uploaded_success">Upload Successful!</string>
+    <string name="upload_photo_label">Upload a photo!</string>
+    <string name="upload_from_photo_roll">Pick from gallery</string>
+    <string name="sort_prompt">Choose a sort</string>
+    <string name="sort_default">Viral</string>
+    <string-array name="sort">
+        <item>Viral</item>
+        <item>Time</item>
+        <item>Top (today)</item>
+        <item>Top (this week)</item>
+        <item>Top (this month)</item>
+        <item>Top (this year)</item>
+        <item>Top (all time)</item>
+    </string-array>
+    <string name="section_default">Hot</string>
+    <string-array name="section">
+        <item>Hot</item>
+        <item>Top</item>
+        <item>User</item>
+    </string-array>
+    <string name="points">Points</string>
+    <string name="seconds">s</string>
+    <string name="minutes">m</string>
+    <string name="hours">hr</string>
+    <string name="days">d</string>
+    <string name="months">mo</string>
+    <string name="years">yr</string>
+</resources>

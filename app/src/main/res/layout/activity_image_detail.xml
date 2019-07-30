@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ImageDetailActivity">
+
+    <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:descendantFocusability="blocksDescendants">
+
+            <TextView
+                    android:id="@+id/detailImageTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:scrollHorizontally="false"
+                    android:text="Look at this cool cat photo!"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="20sp"/>
+
+            <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/detailImageAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="KittenMitten42"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                        android:id="@+id/detailImageDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:text="2d"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <ImageView
+                    android:id="@+id/detailImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
